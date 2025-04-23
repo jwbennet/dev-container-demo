@@ -15,3 +15,7 @@ repos:
         additional_dependencies: ["@commitlint/config-conventional"]
         args: ["--config=.github/.commitlintrc"]
         verbose: true
+  -   repo: https://github.com/psf/black
+      rev: 25.1.0
+      hooks:
+      -   id: black

@@ -12,7 +12,7 @@ tasks:
   setup:
     desc: Install dependencies and setup the project
     cmds:
-      - pre-commit install --config .github/.precommitrc --hook-type pre-commit --hook-type commit-msg
+      - pre-commit install --config .github/.precommitrc --hook-type pre-commit --hook-type commit-msg --install-hooks
       - pip install -r requirements.txt --break-system-packages
   default:
     cmds:
