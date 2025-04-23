@@ -1,1 +1,2 @@
 "*.{json,lintstagedrc,md,py,yml,yaml}": "prettier --config=.github/.prettierrc --write"
+"*.py": "black"
