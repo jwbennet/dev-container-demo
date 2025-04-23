@@ -1,25 +1,18 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
 {
-  "name": "Dev Container Demo",
-  "image": "mcr.microsoft.com/devcontainers/base:noble",
-  "features": {
-    "ghcr.io/devcontainers/features/python:1": {}
-  },
-  "forwardPorts": [
-    5000
-  ],
-  "postCreateCommand": "pip install -r requirements.txt --break-system-packages",
+  "name": "dev-container-demo",
+  "image": "ghcr.io/jwbennet/dev-container-demo-dev-container:latest",
+  "postCreateCommand": "task setup",
   "customizations": {
     "vscode": {
       "extensions": [
         "ms-python.python",
-        "ms-python.black-formatter"
+        "esbenp.prettier-vscode"
       ],
       "settings": {
         "git.branchValidationRegex": "^feature/EP-\\d+-.+$",
         "[python]": {
-          "editor.defaultFormatter": "ms-python.black-formatter"
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
         }
       }
     }

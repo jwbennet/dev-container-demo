@@ -1,0 +1,10 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v2.5.1
+_src_path: gh:jwbennet/project-base
+custom_devcontainer_features: true
+devcontainer_image: ghcr.io/jwbennet/dev-container-demo-dev-container
+git_provider: github
+github_organization: jwbennet
+github_repository: jwbennet/dev-container-demo
+project_name: dev-container-demo
+project_type: generic
