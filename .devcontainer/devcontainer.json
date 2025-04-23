@@ -13,6 +13,7 @@
       "settings": {
         "git.branchValidationRegex": "^feature/EP-\\d+-.+$",
         "prettier.configPath": ".github/.prettierrc",
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
         "[python]": {
           "editor.defaultFormatter": "ms-python.black-formatter"
         }
