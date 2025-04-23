@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://github.com/jwbennet/dev-container-demo/compare/v1.1.0...v1.2.0) (2025-04-23)
+
+
+### Features
+
+* Configure Python files to be formatted with Black ([af580b5](https://github.com/jwbennet/dev-container-demo/commit/af580b5b379abd3cdc92717d2744838b0a0c90e2))
+
+
+### Bug Fixes
+
+* Pre-install commit hook dependencies ([734eda8](https://github.com/jwbennet/dev-container-demo/commit/734eda8167e96ae55a5d63e8729ea46a8689a669))
+
 ## [1.1.0](https://github.com/jwbennet/dev-container-demo/compare/v1.0.0...v1.1.0) (2025-04-23)
 
 
