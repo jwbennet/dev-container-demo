@@ -1,1 +1,1 @@
-"*.{json,lintstagedrc,md,yml,yaml}": "prettier --config=.github/.prettierrc --write"
+"*.{json,lintstagedrc,md,py,yml,yaml}": "prettier --config=.github/.prettierrc --write"

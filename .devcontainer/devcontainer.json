@@ -5,12 +5,10 @@
   "postCreateCommand": "task setup",
   "customizations": {
     "vscode": {
-      "extensions": [
-        "ms-python.python",
-        "esbenp.prettier-vscode"
-      ],
+      "extensions": ["ms-python.python", "esbenp.prettier-vscode"],
       "settings": {
         "git.branchValidationRegex": "^feature/EP-\\d+-.+$",
+        "prettier.configPath": ".github/.prettierrc",
         "[python]": {
           "editor.defaultFormatter": "esbenp.prettier-vscode"
         }

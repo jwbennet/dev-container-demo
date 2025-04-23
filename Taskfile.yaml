@@ -5,10 +5,15 @@ tasks:
     desc: Start a server which serves the project documentation
     cmds:
       - mkdocs serve --config-file=.github/.mkdocsrc
+  run:
+    desc: Start a development web server
+    cmds:
+      - flask --app main.py --debug run
   setup:
     desc: Install dependencies and setup the project
     cmds:
       - pre-commit install --config .github/.precommitrc --hook-type pre-commit --hook-type commit-msg
+      - pip install -r requirements.txt --break-system-packages
   default:
     cmds:
       - task --list
