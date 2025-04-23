@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.0](https://github.com/jwbennet/dev-container-demo/compare/v1.2.0...v1.3.0) (2025-04-23)
+
+
+### Features
+
+* Add documentation ([3d3df09](https://github.com/jwbennet/dev-container-demo/commit/3d3df096b18b39b435664317a0256a3220f622ff))
+
+
+### Bug Fixes
+
+* Needed more excitement ([2a36b23](https://github.com/jwbennet/dev-container-demo/commit/2a36b23dd27b0b17c19dce9efa8cb307006c115e))
+
 ## [1.2.0](https://github.com/jwbennet/dev-container-demo/compare/v1.1.0...v1.2.0) (2025-04-23)
 
 
